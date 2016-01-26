@@ -1,0 +1,16 @@
+/*
+
+*/
+
+#ifndef LOGSYSTEM_EXPORT_H_
+#define LOGSYSTEM_EXPORT_H_
+
+#if defined(LOGSYSTEM_IMPLEMENTATION)
+#define LOGSYSTEM_EXPORT                     SYMBOL_EXPORT
+#define LOGSYSTEM_EXPORT_PRIVATE             SYMBOL_EXPORT
+#else
+#define LOGSYSTEM_EXPORT
+#define LOGSYSTEM_EXPORT_PRIVATE
+#endif  // defined(LOGSYSTEM_IMPLEMENTATION)
+
+#endif // LOGSYSTEM_EXPORT_H_

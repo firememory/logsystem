@@ -1,0 +1,41 @@
+        == TDX LogSystem ==
+
+[tls]
+  
+  aggregator
+  sql
+  
+  collector
+  
+  dictexplorer
+
+[config]
+
+  0. dictexplorer
+    make default(0,1,2).sto
+
+  1. database
+    sql
+      logsystem.sql
+
+  2. aggregator
+      aggregator.xml
+        <database>
+          <Server>  Source, DBName, DBUsr, DBPwd
+
+     [copy aggregator to TServer]
+
+  3. TServer
+    config
+      tdx.ini
+        [MODULES]
+        MODULES=aggregator\logsystem.dll
+
+  4. collector
+      engine
+        taapi.xml
+          <ClusterGroup>
+            <Cluster>
+              <Host> Addr, Port
+  5. import
+    import log file to database;

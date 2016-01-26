@@ -1,0 +1,543 @@
+ ExportAQDict
+
+ Timestamp is 568e324a (Thu Jan 07 17:39:22 2016)
+
+ Preferred load address is 00400000
+
+ Start         Length     Name                   Class
+ 0001:00000000 000050eeH .text                   CODE
+ 0001:000050f0 00001364H .text$x                 CODE
+ 0001:00006454 0001000cH .textbss                CODE
+ 0002:00000000 0000941cH .rdata                  DATA
+ 0002:00009420 000004dfH .xdata$x                DATA
+ 0002:000098ff 00000000H .edata                  DATA
+ 0003:00000000 00000104H .CRT$XCA                DATA
+ 0003:00000104 00000104H .CRT$XCL                DATA
+ 0003:00000208 00000104H .CRT$XCU                DATA
+ 0003:0000030c 00000104H .CRT$XCZ                DATA
+ 0003:00000410 00000104H .CRT$XIA                DATA
+ 0003:00000514 00000104H .CRT$XIZ                DATA
+ 0003:00000620 00005c4bH .data                   DATA
+ 0003:00006270 00000144H .bss                    DATA
+ 0004:00000000 00000078H .idata$2                DATA
+ 0004:00000078 00000014H .idata$3                DATA
+ 0004:0000008c 00000470H .idata$4                DATA
+ 0004:000004fc 00000470H .idata$5                DATA
+ 0004:0000096c 00000528H .idata$6                DATA
+ 0005:00000000 00000336H .rsrc$01                DATA
+ 0005:00000340 00000f5cH .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base     Lib:Object
+
+ 0001:00000230       ??0DynamicLibrary@@QAE@PBD0@Z 00401230 f   dynamic_library.obj
+ 0001:000002e0       ??1DynamicLibrary@@QAE@XZ  004012e0 f   dynamic_library.obj
+ 0001:00000330       ?open@DynamicLibrary@@QAE?AW4rc_e@@PBD0@Z 00401330 f   dynamic_library.obj
+ 0001:00000460       ?close@DynamicLibrary@@QAEXXZ 00401460 f   dynamic_library.obj
+ 0001:000004e0       ?locateSymbol_@DynamicLibrary@@AAEPAXPBD@Z 004014e0 f   dynamic_library.obj
+ 0001:00000560       ?AppendSystemPath@@YA?AW4rc_e@@PBD@Z 00401560 f   dynamic_library.obj
+ 0001:00000770       ?RemoveSystemPath@@YA?AW4rc_e@@PBD@Z 00401770 f   dynamic_library.obj
+ 0001:00000a30       ?trace_system_error@@YAXXZ 00401a30 f   dynamic_library.obj
+ 0001:00000ad0       ?_GetBaseMessageMap@CExportAQDictApp@@KGPBUAFX_MSGMAP@@XZ 00401ad0 f   ExportAQDict.obj
+ 0001:00000b00       ?GetMessageMap@CExportAQDictApp@@MBEPBUAFX_MSGMAP@@XZ 00401b00 f   ExportAQDict.obj
+ 0001:00000b40       ??0CExportAQDictApp@@QAE@XZ 00401b40 f   ExportAQDict.obj
+ 0001:00000ba0       ??_ECExportAQDictApp@@UAEPAXI@Z 00401ba0 f i ExportAQDict.obj
+ 0001:00000ba0       ??_GCExportAQDictApp@@UAEPAXI@Z 00401ba0 f i ExportAQDict.obj
+ 0001:00000c10       ??1CExportAQDictApp@@UAE@XZ 00401c10 f i ExportAQDict.obj
+ 0001:00000d70       ?InitInstance@CExportAQDictApp@@UAEHXZ 00401d70 f   ExportAQDict.obj
+ 0001:00000e60       ??1CExportAQDictDlg@@UAE@XZ 00401e60 f i ExportAQDict.obj
+ 0001:00000ef0       ??0CAboutDlg@@QAE@XZ       00401ef0 f   ExportAQDictDlg.obj
+ 0001:00000f50       ??_GCAboutDlg@@UAEPAXI@Z   00401f50 f i ExportAQDictDlg.obj
+ 0001:00000f50       ??_ECAboutDlg@@UAEPAXI@Z   00401f50 f i ExportAQDictDlg.obj
+ 0001:00000fc0       ??1CAboutDlg@@UAE@XZ       00401fc0 f i ExportAQDictDlg.obj
+ 0001:00001010       ?DoDataExchange@CAboutDlg@@MAEXPAVCDataExchange@@@Z 00402010 f   ExportAQDictDlg.obj
+ 0001:00001060       ?_GetBaseMessageMap@CAboutDlg@@KGPBUAFX_MSGMAP@@XZ 00402060 f   ExportAQDictDlg.obj
+ 0001:00001090       ?GetMessageMap@CAboutDlg@@MBEPBUAFX_MSGMAP@@XZ 00402090 f   ExportAQDictDlg.obj
+ 0001:000010d0       ??0CExportAQDictDlg@@QAE@PAVCWnd@@@Z 004020d0 f   ExportAQDictDlg.obj
+ 0001:000011c0       ??_GCExportAQDictDlg@@UAEPAXI@Z 004021c0 f i ExportAQDictDlg.obj
+ 0001:000011c0       ??_ECExportAQDictDlg@@UAEPAXI@Z 004021c0 f i ExportAQDictDlg.obj
+ 0001:00001230       ?DoDataExchange@CExportAQDictDlg@@MAEXPAVCDataExchange@@@Z 00402230 f   ExportAQDictDlg.obj
+ 0001:00001280       ?_GetBaseMessageMap@CExportAQDictDlg@@KGPBUAFX_MSGMAP@@XZ 00402280 f   ExportAQDictDlg.obj
+ 0001:000012b0       ?GetMessageMap@CExportAQDictDlg@@MBEPBUAFX_MSGMAP@@XZ 004022b0 f   ExportAQDictDlg.obj
+ 0001:000012f0       ?OnInitDialog@CExportAQDictDlg@@MAEHXZ 004022f0 f   ExportAQDictDlg.obj
+ 0001:00001550       ?OnSysCommand@CExportAQDictDlg@@IAEXIJ@Z 00402550 f   ExportAQDictDlg.obj
+ 0001:00001620       ?OnPaint@CExportAQDictDlg@@IAEXXZ 00402620 f   ExportAQDictDlg.obj
+ 0001:000017a0       ?OnQueryDragIcon@CExportAQDictDlg@@IAEPAUHICON__@@XZ 004027a0 f   ExportAQDictDlg.obj
+ 0001:000017e0       ?OnOK@CExportAQDictDlg@@MAEXXZ 004027e0 f   ExportAQDictDlg.obj
+ 0001:00002080       ?DataOut@@YGJPADFPAXKIK@Z  00403080 f   ExportAQDictDlg.obj
+ 0001:000020b0       ?loadDict@CExportAQDictDlg@@AAEHIABVCString@@@Z 004030b0 f   ExportAQDictDlg.obj
+ 0001:00002ba0       ?getOpenFilePath@CExportAQDictDlg@@AAE?AVCString@@XZ 00403ba0 f   ExportAQDictDlg.obj
+ 0001:00002ce0       ??1CFileDialog@@UAE@XZ     00403ce0 f i ExportAQDictDlg.obj
+ 0001:00002d70       ??1CCommonDialog@@UAE@XZ   00403d70 f i ExportAQDictDlg.obj
+ 0001:00002dc0       ?OnOpenDict1@CExportAQDictDlg@@IAEXXZ 00403dc0 f   ExportAQDictDlg.obj
+ 0001:00002f20       ?OnOpenDict2@CExportAQDictDlg@@IAEXXZ 00403f20 f   ExportAQDictDlg.obj
+ 0001:00003080       ?OnOpenDict3@CExportAQDictDlg@@IAEXXZ 00404080 f   ExportAQDictDlg.obj
+ 0001:000031e0       ?OnCheck1C@CExportAQDictDlg@@IAEXXZ 004041e0 f   ExportAQDictDlg.obj
+ 0001:00003250       ?OnCheck1S@CExportAQDictDlg@@IAEXXZ 00404250 f   ExportAQDictDlg.obj
+ 0001:000032c0       ?OnCheck1Sc@CExportAQDictDlg@@IAEXXZ 004042c0 f   ExportAQDictDlg.obj
+ 0001:00003330       ?OnCheck2C@CExportAQDictDlg@@IAEXXZ 00404330 f   ExportAQDictDlg.obj
+ 0001:000033a0       ?OnCheck2S@CExportAQDictDlg@@IAEXXZ 004043a0 f   ExportAQDictDlg.obj
+ 0001:00003410       ?OnCheck2Sc@CExportAQDictDlg@@IAEXXZ 00404410 f   ExportAQDictDlg.obj
+ 0001:00003480       ?OnCheck3C@CExportAQDictDlg@@IAEXXZ 00404480 f   ExportAQDictDlg.obj
+ 0001:000034f0       ?OnCheck3S@CExportAQDictDlg@@IAEXXZ 004044f0 f   ExportAQDictDlg.obj
+ 0001:00003560       ?OnCheck3Sc@CExportAQDictDlg@@IAEXXZ 00404560 f   ExportAQDictDlg.obj
+ 0001:000035d0       ?InitDict@@YAHPAVCWtDict@@PBUtagFIELDINFO@@GPBGGPBUtagSTRUCTFIELD@@G@Z 004045d0 f i ExportAQDictDlg.obj
+ 0001:00003700       ?isValid@DynamicLibrary@@QBEHXZ 00404700 f i ExportAQDictDlg.obj
+ 0001:00003740       ?LocateSymbol@DynamicLibrary@@QAEPAXPBD@Z 00404740 f i ExportAQDictDlg.obj
+ 0001:0000378c       ?AfxTrace@@YAXPBDZZ        0040478c f   mfc42d:MFC42D.DLL
+ 0001:00003792       ?OnHelp@CWinApp@@IAEXXZ    00404792 f   mfc42d:MFC42D.DLL
+ 0001:00003798       ?WinHelpA@CWinApp@@UAEXKI@Z 00404798 f   mfc42d:MFC42D.DLL
+ 0001:0000379e       ?OnDDECommand@CWinApp@@UAEHPAD@Z 0040479e f   mfc42d:MFC42D.DLL
+ 0001:000037a4       ?DoWaitCursor@CWinApp@@UAEXH@Z 004047a4 f   mfc42d:MFC42D.DLL
+ 0001:000037aa       ?DoMessageBox@CWinApp@@UAEHPBDII@Z 004047aa f   mfc42d:MFC42D.DLL
+ 0001:000037b0       ?SaveAllModified@CWinApp@@UAEHXZ 004047b0 f   mfc42d:MFC42D.DLL
+ 0001:000037b6       ?InitApplication@CWinApp@@UAEHXZ 004047b6 f   mfc42d:MFC42D.DLL
+ 0001:000037bc       ?AddToRecentFileList@CWinApp@@UAEXPBD@Z 004047bc f   mfc42d:MFC42D.DLL
+ 0001:000037c2       ?OpenDocumentFile@CWinApp@@UAEPAVCDocument@@PBD@Z 004047c2 f   mfc42d:MFC42D.DLL
+ 0001:000037c8       ?Delete@CWinThread@@UAEXXZ 004047c8 f   mfc42d:MFC42D.DLL
+ 0001:000037ce       ?GetMainWnd@CWinThread@@UAEPAVCWnd@@XZ 004047ce f   mfc42d:MFC42D.DLL
+ 0001:000037d4       ?ProcessMessageFilter@CWinThread@@UAEHHPAUtagMSG@@@Z 004047d4 f   mfc42d:MFC42D.DLL
+ 0001:000037da       ?ProcessWndProcException@CWinApp@@UAEJPAVCException@@PBUtagMSG@@@Z 004047da f   mfc42d:MFC42D.DLL
+ 0001:000037e0       ?ExitInstance@CWinApp@@UAEHXZ 004047e0 f   mfc42d:MFC42D.DLL
+ 0001:000037e6       ?IsIdleMessage@CWinThread@@UAEHPAUtagMSG@@@Z 004047e6 f   mfc42d:MFC42D.DLL
+ 0001:000037ec       ?OnIdle@CWinApp@@UAEHJ@Z   004047ec f   mfc42d:MFC42D.DLL
+ 0001:000037f2       ?PumpMessage@CWinThread@@UAEHXZ 004047f2 f   mfc42d:MFC42D.DLL
+ 0001:000037f8       ?PreTranslateMessage@CWinThread@@UAEHPAUtagMSG@@@Z 004047f8 f   mfc42d:MFC42D.DLL
+ 0001:000037fe       ?Run@CWinApp@@UAEHXZ       004047fe f   mfc42d:MFC42D.DLL
+ 0001:00003804       ?GetConnectionHook@CCmdTarget@@MAEPAUIConnectionPoint@@ABU_GUID@@@Z 00404804 f   mfc42d:MFC42D.DLL
+ 0001:0000380a       ?GetExtraConnectionPoints@CCmdTarget@@MAEHPAVCPtrArray@@@Z 0040480a f   mfc42d:MFC42D.DLL
+ 0001:00003810       ?GetInterfaceHook@CCmdTarget@@UAEPAUIUnknown@@PBX@Z 00404810 f   mfc42d:MFC42D.DLL
+ 0001:00003816       ?OnCreateAggregates@CCmdTarget@@UAEHXZ 00404816 f   mfc42d:MFC42D.DLL
+ 0001:0000381c       ?GetEventSinkMap@CCmdTarget@@MBEPBUAFX_EVENTSINKMAP@@XZ 0040481c f   mfc42d:MFC42D.DLL
+ 0001:00003822       ?GetInterfaceMap@CCmdTarget@@MBEPBUAFX_INTERFACEMAP@@XZ 00404822 f   mfc42d:MFC42D.DLL
+ 0001:00003828       ?GetConnectionMap@CCmdTarget@@MBEPBUAFX_CONNECTIONMAP@@XZ 00404828 f   mfc42d:MFC42D.DLL
+ 0001:0000382e       ?GetDispatchMap@CCmdTarget@@MBEPBUAFX_DISPMAP@@XZ 0040482e f   mfc42d:MFC42D.DLL
+ 0001:00003834       ?GetCommandMap@CCmdTarget@@MBEPBUAFX_OLECMDMAP@@XZ 00404834 f   mfc42d:MFC42D.DLL
+ 0001:0000383a       ?GetTypeLib@CCmdTarget@@UAEJKPAPAUITypeLib@@@Z 0040483a f   mfc42d:MFC42D.DLL
+ 0001:00003840       ?GetTypeLibCache@CCmdTarget@@UAEPAVCTypeLibCache@@XZ 00404840 f   mfc42d:MFC42D.DLL
+ 0001:00003846       ?GetTypeInfoCount@CCmdTarget@@UAEIXZ 00404846 f   mfc42d:MFC42D.DLL
+ 0001:0000384c       ?GetDispatchIID@CCmdTarget@@UAEHPAU_GUID@@@Z 0040484c f   mfc42d:MFC42D.DLL
+ 0001:00003852       ?IsInvokeAllowed@CCmdTarget@@UAEHJ@Z 00404852 f   mfc42d:MFC42D.DLL
+ 0001:00003858       ?OnFinalRelease@CCmdTarget@@UAEXXZ 00404858 f   mfc42d:MFC42D.DLL
+ 0001:0000385e       ?OnCmdMsg@CCmdTarget@@UAEHIHPAXPAUAFX_CMDHANDLERINFO@@@Z 0040485e f   mfc42d:MFC42D.DLL
+ 0001:00003864       ?Dump@CWinApp@@UBEXAAVCDumpContext@@@Z 00404864 f   mfc42d:MFC42D.DLL
+ 0001:0000386a       ?AssertValid@CWinApp@@UBEXXZ 0040486a f   mfc42d:MFC42D.DLL
+ 0001:00003870       ?Serialize@CObject@@UAEXAAVCArchive@@@Z 00404870 f   mfc42d:MFC42D.DLL
+ 0001:00003876       ?GetRuntimeClass@CWinApp@@UBEPAUCRuntimeClass@@XZ 00404876 f   mfc42d:MFC42D.DLL
+ 0001:0000387c       ??0CWinApp@@QAE@PBD@Z      0040487c f   mfc42d:MFC42D.DLL
+ 0001:00003882       ??3CObject@@SGXPAX@Z       00404882 f   mfc42d:MFC42D.DLL
+ 0001:00003888       ??1CWinApp@@UAE@XZ         00404888 f   mfc42d:MFC42D.DLL
+ 0001:0000388e       ?DoModal@CDialog@@UAEHXZ   0040488e f   mfc42d:MFC42D.DLL
+ 0001:00003894       ?Enable3dControls@CWinApp@@IAEHXZ 00404894 f   mfc42d:MFC42D.DLL
+ 0001:0000389a       ??1CDialog@@UAE@XZ         0040489a f   mfc42d:MFC42D.DLL
+ 0001:000038a0       ??1CString@@QAE@XZ         004048a0 f   mfc42d:MFC42D.DLL
+ 0001:000038a6       ?PreInitDialog@CDialog@@MAEXXZ 004048a6 f   mfc42d:MFC42D.DLL
+ 0001:000038ac       ?OnCancel@CDialog@@MAEXXZ  004048ac f   mfc42d:MFC42D.DLL
+ 0001:000038b2       ?OnOK@CDialog@@MAEXXZ      004048b2 f   mfc42d:MFC42D.DLL
+ 0001:000038b8       ?OnSetFont@CDialog@@UAEXPAVCFont@@@Z 004048b8 f   mfc42d:MFC42D.DLL
+ 0001:000038be       ?OnInitDialog@CDialog@@UAEHXZ 004048be f   mfc42d:MFC42D.DLL
+ 0001:000038c4       ?SetOccDialogInfo@CDialog@@MAEHPAU_AFX_OCC_DIALOG_INFO@@@Z 004048c4 f   mfc42d:MFC42D.DLL
+ 0001:000038ca       ?IsFrameWnd@CWnd@@UBEHXZ   004048ca f   mfc42d:MFC42D.DLL
+ 0001:000038d0       ?CheckAutoCenter@CDialog@@UAEHXZ 004048d0 f   mfc42d:MFC42D.DLL
+ 0001:000038d6       ?OnChildNotify@CWnd@@MAEHIIJPAJ@Z 004048d6 f   mfc42d:MFC42D.DLL
+ 0001:000038dc       ?PostNcDestroy@CWnd@@MAEXXZ 004048dc f   mfc42d:MFC42D.DLL
+ 0001:000038e2       ?DefWindowProcA@CWnd@@MAEJIIJ@Z 004048e2 f   mfc42d:MFC42D.DLL
+ 0001:000038e8       ?OnWndMsg@CWnd@@MAEHIIJPAJ@Z 004048e8 f   mfc42d:MFC42D.DLL
+ 0001:000038ee       ?WindowProc@CWnd@@MAEJIIJ@Z 004048ee f   mfc42d:MFC42D.DLL
+ 0001:000038f4       ?OnAmbientProperty@CWnd@@UAEHPAVCOleControlSite@@JPAUtagVARIANT@@@Z 004048f4 f   mfc42d:MFC42D.DLL
+ 0001:000038fa       ?PreTranslateMessage@CDialog@@UAEHPAUtagMSG@@@Z 004048fa f   mfc42d:MFC42D.DLL
+ 0001:00003900       ?EndModalState@CWnd@@UAEXXZ 00404900 f   mfc42d:MFC42D.DLL
+ 0001:00003906       ?BeginModalState@CWnd@@UAEXXZ 00404906 f   mfc42d:MFC42D.DLL
+ 0001:0000390c       ?GetSuperWndProcAddr@CWnd@@MAEPAP6GJPAUHWND__@@IIJ@ZXZ 0040490c f   mfc42d:MFC42D.DLL
+ 0001:00003912       ?OnNotify@CWnd@@MAEHIJPAJ@Z 00404912 f   mfc42d:MFC42D.DLL
+ 0001:00003918       ?OnCommand@CWnd@@MAEHIJ@Z  00404918 f   mfc42d:MFC42D.DLL
+ 0001:0000391e       ?EndModalLoop@CWnd@@UAEXH@Z 0040491e f   mfc42d:MFC42D.DLL
+ 0001:00003924       ?ContinueModal@CWnd@@UAEHXZ 00404924 f   mfc42d:MFC42D.DLL
+ 0001:0000392a       ?WinHelpA@CWnd@@UAEXKI@Z   0040492a f   mfc42d:MFC42D.DLL
+ 0001:00003930       ?GetScrollBarCtrl@CWnd@@UBEPAVCScrollBar@@H@Z 00404930 f   mfc42d:MFC42D.DLL
+ 0001:00003936       ?OnToolHitTest@CWnd@@UBEHVCPoint@@PAUtagTOOLINFOA@@@Z 00404936 f   mfc42d:MFC42D.DLL
+ 0001:0000393c       ?CalcWindowRect@CWnd@@UAEXPAUtagRECT@@I@Z 0040493c f   mfc42d:MFC42D.DLL
+ 0001:00003942       ?PreCreateWindow@CWnd@@UAEHAAUtagCREATESTRUCTA@@@Z 00404942 f   mfc42d:MFC42D.DLL
+ 0001:00003948       ?DestroyWindow@CWnd@@UAEHXZ 00404948 f   mfc42d:MFC42D.DLL
+ 0001:0000394e       ?Create@CWnd@@UAEHPBD0KABUtagRECT@@PAV1@IPAUCCreateContext@@@Z 0040494e f   mfc42d:MFC42D.DLL
+ 0001:00003954       ?PreSubclassWindow@CWnd@@UAEXXZ 00404954 f   mfc42d:MFC42D.DLL
+ 0001:0000395a       ?OnFinalRelease@CWnd@@UAEXXZ 0040495a f   mfc42d:MFC42D.DLL
+ 0001:00003960       ?OnCmdMsg@CDialog@@UAEHIHPAXPAUAFX_CMDHANDLERINFO@@@Z 00404960 f   mfc42d:MFC42D.DLL
+ 0001:00003966       ?Dump@CDialog@@UBEXAAVCDumpContext@@@Z 00404966 f   mfc42d:MFC42D.DLL
+ 0001:0000396c       ?AssertValid@CDialog@@UBEXXZ 0040496c f   mfc42d:MFC42D.DLL
+ 0001:00003972       ?GetRuntimeClass@CDialog@@UBEPAUCRuntimeClass@@XZ 00404972 f   mfc42d:MFC42D.DLL
+ 0001:00003978       ??0CDialog@@QAE@IPAVCWnd@@@Z 00404978 f   mfc42d:MFC42D.DLL
+ 0001:0000397e       ?DoDataExchange@CWnd@@MAEXPAVCDataExchange@@@Z 0040497e f   mfc42d:MFC42D.DLL
+ 0001:00003984       ?LoadIconA@CWinApp@@QBEPAUHICON__@@I@Z 00404984 f   mfc42d:MFC42D.DLL
+ 0001:0000398a       ?AfxGetApp@@YGPAVCWinApp@@XZ 0040498a f   mfc42d:MFC42D.DLL
+ 0001:00003990       ??0CString@@QAE@XZ         00404990 f   mfc42d:MFC42D.DLL
+ 0001:00003996       ??4CString@@QAEABV0@ABV0@@Z 00404996 f   mfc42d:MFC42D.DLL
+ 0001:0000399c       ?Left@CString@@QBE?AV1@H@Z 0040499c f   mfc42d:MFC42D.DLL
+ 0001:000039a2       ?ReverseFind@CString@@QBEHD@Z 004049a2 f   mfc42d:MFC42D.DLL
+ 0001:000039a8       ??4CString@@QAEABV0@PBD@Z  004049a8 f   mfc42d:MFC42D.DLL
+ 0001:000039ae       ?SetWindowTextA@CWnd@@QAEXPBD@Z 004049ae f   mfc42d:MFC42D.DLL
+ 0001:000039b4       ?GetDlgItem@CWnd@@QBEPAV1@H@Z 004049b4 f   mfc42d:MFC42D.DLL
+ 0001:000039ba       ?SetIcon@CWnd@@QAEPAUHICON__@@PAU2@H@Z 004049ba f   mfc42d:MFC42D.DLL
+ 0001:000039c0       ??BCString@@QBEPBDXZ       004049c0 f   mfc42d:MFC42D.DLL
+ 0001:000039c6       ?AppendMenuA@CMenu@@QAEHIIPBD@Z 004049c6 f   mfc42d:MFC42D.DLL
+ 0001:000039cc       ?IsEmpty@CString@@QBEHXZ   004049cc f   mfc42d:MFC42D.DLL
+ 0001:000039d2       ?LoadStringA@CString@@QAEHI@Z 004049d2 f   mfc42d:MFC42D.DLL
+ 0001:000039d8       ?GetSystemMenu@CWnd@@QBEPAVCMenu@@H@Z 004049d8 f   mfc42d:MFC42D.DLL
+ 0001:000039de       ?OnSysCommand@CWnd@@IAEXIJ@Z 004049de f   mfc42d:MFC42D.DLL
+ 0001:000039e4       ?OnPaint@CWnd@@IAEXXZ      004049e4 f   mfc42d:MFC42D.DLL
+ 0001:000039ea       ??1CPaintDC@@UAE@XZ        004049ea f   mfc42d:MFC42D.DLL
+ 0001:000039f0       ?DrawIcon@CDC@@QAEHHHPAUHICON__@@@Z 004049f0 f   mfc42d:MFC42D.DLL
+ 0001:000039f6       ?Height@CRect@@QBEHXZ      004049f6 f   mfc42d:MFC42D.DLL
+ 0001:000039fc       ?Width@CRect@@QBEHXZ       004049fc f   mfc42d:MFC42D.DLL
+ 0001:00003a02       ?GetClientRect@CWnd@@QBEXPAUtagRECT@@@Z 00404a02 f   mfc42d:MFC42D.DLL
+ 0001:00003a08       ??0CRect@@QAE@XZ           00404a08 f   mfc42d:MFC42D.DLL
+ 0001:00003a0e       ?SendMessageA@CWnd@@QAEJIIJ@Z 00404a0e f   mfc42d:MFC42D.DLL
+ 0001:00003a14       ?GetSafeHdc@CDC@@QBEPAUHDC__@@XZ 00404a14 f   mfc42d:MFC42D.DLL
+ 0001:00003a1a       ??0CPaintDC@@QAE@PAVCWnd@@@Z 00404a1a f   mfc42d:MFC42D.DLL
+ 0001:00003a20       ?IsIconic@CWnd@@QBEHXZ     00404a20 f   mfc42d:MFC42D.DLL
+ 0001:00003a26       ?GetCheck@CButton@@QBEHXZ  00404a26 f   mfc42d:MFC42D.DLL
+ 0001:00003a2c       ??H@YG?AVCString@@PBDABV0@@Z 00404a2c f   mfc42d:MFC42D.DLL
+ 0001:00003a32       ??H@YG?AVCString@@ABV0@0@Z 00404a32 f   mfc42d:MFC42D.DLL
+ 0001:00003a38       ??H@YG?AVCString@@ABV0@PBD@Z 00404a38 f   mfc42d:MFC42D.DLL
+ 0001:00003a3e       ?MessageBoxA@CWnd@@QAEHPBD0I@Z 00404a3e f   mfc42d:MFC42D.DLL
+ 0001:00003a44       ??0CString@@QAE@PBD@Z      00404a44 f   mfc42d:MFC42D.DLL
+ 0001:00003a4a       ?GetLength@CString@@QBEHXZ 00404a4a f   mfc42d:MFC42D.DLL
+ 0001:00003a50       ?GetWindowTextA@CWnd@@QBEXAAVCString@@@Z 00404a50 f   mfc42d:MFC42D.DLL
+ 0001:00003a56       ?Right@CString@@QBE?AV1@H@Z 00404a56 f   mfc42d:MFC42D.DLL
+ 0001:00003a5c       ?Find@CString@@QBEHDH@Z    00404a5c f   mfc42d:MFC42D.DLL
+ 0001:00003a62       ?GetPathName@CFileDialog@@QBE?AVCString@@XZ 00404a62 f   mfc42d:MFC42D.DLL
+ 0001:00003a68       ?DoModal@CFileDialog@@UAEHXZ 00404a68 f   mfc42d:MFC42D.DLL
+ 0001:00003a6e       ??0CFileDialog@@QAE@HPBD0K0PAVCWnd@@@Z 00404a6e f   mfc42d:MFC42D.DLL
+ 0001:00003a74       ?EnableWindow@CWnd@@QAEHH@Z 00404a74 f   mfc42d:MFC42D.DLL
+ 0001:00003a7a       ?SetCheck@CButton@@QAEXH@Z 00404a7a f   mfc42d:MFC42D.DLL
+ 0001:00003a80       _memset                    00404a80 f   msvcrtd:MSVCRTD.dll
+ 0001:00003a86       __chkesp                   00404a86 f   msvcrtd:MSVCRTD.dll
+ 0001:00003a8c       _strlen                    00404a8c f   msvcrtd:MSVCRTD.dll
+ 0001:00003a92       _strcpy                    00404a92 f   msvcrtd:MSVCRTD.dll
+ 0001:00003a98       _strcat                    00404a98 f   msvcrtd:MSVCRTD.dll
+ 0001:00003a9e       _strstr                    00404a9e f   msvcrtd:MSVCRTD.dll
+ 0001:00003ab0       __alloca_probe             00404ab0 f   msvcrtd:chkstk.obj
+ 0001:00003ab0       __chkstk                   00404ab0 f   msvcrtd:chkstk.obj
+ 0001:00003ae0       _memmove                   00404ae0 f   msvcrtd:MSVCRTD.dll
+ 0001:00003ae6       _free                      00404ae6 f   msvcrtd:MSVCRTD.dll
+ 0001:00003aec       _malloc                    00404aec f   msvcrtd:MSVCRTD.dll
+ 0001:00003b00       __onexit                   00404b00 f   msvcrtd:atonexit.obj
+ 0001:00003b40       _atexit                    00404b40 f   msvcrtd:atonexit.obj
+ 0001:00003b58       ___CxxFrameHandler         00404b58 f   msvcrtd:MSVCRTD.dll
+ 0001:00003b60       _fwrite                    00404b60 f   msvcrtd:MSVCRTD.dll
+ 0001:00003b66       _fclose                    00404b66 f   msvcrtd:MSVCRTD.dll
+ 0001:00003b6c       _fopen                     00404b6c f   msvcrtd:MSVCRTD.dll
+ 0001:00003b72       _atol                      00404b72 f   msvcrtd:MSVCRTD.dll
+ 0001:00003b78       __snprintf                 00404b78 f   msvcrtd:MSVCRTD.dll
+ 0001:00003b80       _WinMainCRTStartup         00404b80 f   msvcrtd:crtexew.obj
+ 0001:00003d7a       ___dllonexit               00404d7a f   msvcrtd:MSVCRTD.dll
+ 0001:00003d80       __exit                     00404d80 f   msvcrtd:MSVCRTD.dll
+ 0001:00003d86       __XcptFilter               00404d86 f   msvcrtd:MSVCRTD.dll
+ 0001:00003d8c       _exit                      00404d8c f   msvcrtd:MSVCRTD.dll
+ 0001:00003d92       ___getmainargs             00404d92 f   msvcrtd:MSVCRTD.dll
+ 0001:00003d98       __initterm                 00404d98 f   msvcrtd:MSVCRTD.dll
+ 0001:00003da0       __setdefaultprecision      00404da0 f   msvcrtd:fp8.obj
+ 0001:00003db8       ___setusermatherr          00404db8 f   msvcrtd:MSVCRTD.dll
+ 0001:00003dc0       __matherr                  00404dc0 f   msvcrtd:merr.obj
+ 0001:00003dd0       __setargv                  00404dd0 f   msvcrtd:dllargv.obj
+ 0001:00003dd6       ___p__commode              00404dd6 f   msvcrtd:MSVCRTD.dll
+ 0001:00003ddc       ___p__fmode                00404ddc f   msvcrtd:MSVCRTD.dll
+ 0001:00003de2       ___set_app_type            00404de2 f   msvcrtd:MSVCRTD.dll
+ 0001:00003de8       __except_handler3          00404de8 f   msvcrtd:MSVCRTD.dll
+ 0001:00003dee       __controlfp                00404dee f   msvcrtd:MSVCRTD.dll
+ 0001:00003df4       _LoadLibraryA@4            00404df4 f   kernel32:KERNEL32.dll
+ 0001:00003dfa       _FreeLibrary@4             00404dfa f   kernel32:KERNEL32.dll
+ 0001:00003e00       _GetProcAddress@8          00404e00 f   kernel32:KERNEL32.dll
+ 0001:00003e06       _SetEnvironmentVariableA@8 00404e06 f   kernel32:KERNEL32.dll
+ 0001:00003e0c       _GetEnvironmentVariableA@12 00404e0c f   kernel32:KERNEL32.dll
+ 0001:00003e12       _LocalFree@4               00404e12 f   kernel32:KERNEL32.dll
+ 0001:00003e18       _FormatMessageA@28         00404e18 f   kernel32:KERNEL32.dll
+ 0001:00003e1e       _GetLastError@0            00404e1e f   kernel32:KERNEL32.dll
+ 0001:00003e24       _GetModuleFileNameA@12     00404e24 f   kernel32:KERNEL32.dll
+ 0001:00003e2a       _GetPrivateProfileStringA@24 00404e2a f   kernel32:KERNEL32.dll
+ 0001:00003e30       _GetPrivateProfileIntA@16  00404e30 f   kernel32:KERNEL32.dll
+ 0001:00003e36       _GetModuleHandleA@4        00404e36 f   kernel32:KERNEL32.dll
+ 0001:00003e3c       _GetStartupInfoA@4         00404e3c f   kernel32:KERNEL32.dll
+ 0001:00003e42       _GetSystemMetrics@4        00404e42 f   user32:USER32.dll
+ 0001:00003e48       ?AfxEnableControlContainer@@YAXPAVCOccManager@@@Z 00404e48 f   mfco42d:MFCO42D.DLL
+ 0001:00003e4e       ??1CWtDict2@@UAE@XZ        00404e4e f   WTCommLibd:WTCommLibD.dll
+ 0001:00003e54       ?ExportCommonAndGetUsed@CWtDict2@@QAEHQAXKAAK@Z 00404e54 f   WTCommLibd:WTCommLibD.dll
+ 0001:00003e5a       ??0CWtDict2@@QAE@GG@Z      00404e5a f   WTCommLibd:WTCommLibD.dll
+ 0001:00003e60       ?RegisterStructField@CWtDict@@QAEHGQBGG@Z 00404e60 f   WTCommLibd:WTCommLibD.dll
+ 0001:00003e66       ?RegisterStruct@CWtDict@@QAEHQBGG@Z 00404e66 f   WTCommLibd:WTCommLibD.dll
+ 0001:00003e6c       ?RegisterFieldInfo@CWtDict@@QAEHQBUtagFIELDINFO@@G@Z 00404e6c f   WTCommLibd:WTCommLibD.dll
+ 0001:00003e80       _WinMain@16                00404e80 f   mfcs42d:appmodul.obj
+ 0001:00003ea0       ?AfxInitialize@@YGHHK@Z    00404ea0 f   mfcs42d:appmodul.obj
+ 0001:00003f36       __setmbcp                  00404f36 f   msvcrtd:MSVCRTD.dll
+ 0001:00003f3c       ?AfxWinMain@@YGHPAUHINSTANCE__@@0PADH@Z 00404f3c f   mfc42d:MFC42D.DLL
+ 0001:00003f42       ?AfxAssertFailedLine@@YGHPBDH@Z 00404f42 f   mfc42d:MFC42D.DLL
+ 0001:00003f48       ?AfxGetModuleState@@YGPAVAFX_MODULE_STATE@@XZ 00404f48 f   mfc42d:MFC42D.DLL
+ 0001:00006460       __enc$textbss$begin        00407460     <linker-defined>
+ 0001:00016460       __enc$textbss$end          00417460     <linker-defined>
+ 0002:00000028       ?messageMap@CExportAQDictApp@@1UAFX_MSGMAP@@B 00418028     ExportAQDict.obj
+ 0002:00000030       ?_messageEntries@CExportAQDictApp@@0QBUAFX_MSGMAP_ENTRY@@B 00418030     ExportAQDict.obj
+ 0002:0000006c       ??_7CExportAQDictApp@@6B@  0041806c     ExportAQDict.obj
+ 0002:000029e0       ?messageMap@CAboutDlg@@1UAFX_MSGMAP@@B 0041a9e0     ExportAQDictDlg.obj
+ 0002:000029e8       ?_messageEntries@CAboutDlg@@0QBUAFX_MSGMAP_ENTRY@@B 0041a9e8     ExportAQDictDlg.obj
+ 0002:00002a00       ?messageMap@CExportAQDictDlg@@1UAFX_MSGMAP@@B 0041aa00     ExportAQDictDlg.obj
+ 0002:00002a08       ?_messageEntries@CExportAQDictDlg@@0QBUAFX_MSGMAP_ENTRY@@B 0041aa08     ExportAQDictDlg.obj
+ 0002:00003400       ??_7CAboutDlg@@6B@         0041b400     ExportAQDictDlg.obj
+ 0002:00003504       ??_7CExportAQDictDlg@@6B@  0041b504     ExportAQDictDlg.obj
+ 0002:00003608       ??_C@_0BI@NHMH@dictexplorer?5v1?40?40?4827?$AA@ 0041b608     ExportAQDictDlg.obj
+ 0002:00003624       ??_C@_07IOPL@Default?$AA@  0041b624     ExportAQDictDlg.obj
+ 0002:00003630       ??_C@_0BE@MIAP@Write?5Dict?5File?5OK?$CB?$AA@ 0041b630     ExportAQDictDlg.obj
+ 0002:00003648       ??_C@_0BB@KEGC@Write?5SC?5Failed?$CB?$AA@ 0041b648     ExportAQDictDlg.obj
+ 0002:0000365c       ??_C@_0BD@BMAC@Write?5Comm?5Failed?$CB?$AA@ 0041b65c     ExportAQDictDlg.obj
+ 0002:00003674       ??_C@_0BF@EJGC@Write?5simple?5Failed?$CB?$AA@ 0041b674     ExportAQDictDlg.obj
+ 0002:00003690       ??_C@_0BI@HFKI@CheckBox?5Choose?5Failed?$CB?$AA@ 0041b690     ExportAQDictDlg.obj
+ 0002:000036ac       ??_C@_0BD@CEOB@Write?5File?5Failed?$CB?$AA@ 0041b6ac     ExportAQDictDlg.obj
+ 0002:000036c4       ??_C@_03PDDH@wb?$CL?$AA@   0041b6c4     ExportAQDictDlg.obj
+ 0002:000036c8       ??_C@_01FDLN@?1?$AA@       0041b6c8     ExportAQDictDlg.obj
+ 0002:000036cc       ??_C@_04PGJJ@?4sto?$AA@    0041b6cc     ExportAQDictDlg.obj
+ 0002:000036d4       ??_C@_0BD@OFGA@File?5Name?5Illegal?$CB?$AA@ 0041b6d4     ExportAQDictDlg.obj
+ 0002:000036ec       ??_C@_0BG@CJCF@Get?5Dict?5Failed?$CB?5Full?$AA@ 0041b6ec     ExportAQDictDlg.obj
+ 0002:00003708       ??_C@_0BI@CBNA@Get?5Dict?5Failed?$CB?5Simple?$AA@ 0041b708     ExportAQDictDlg.obj
+ 0002:00003724       ??_C@_0N@ENHB@Init?5Failed?$CB?$AA@ 0041b724     ExportAQDictDlg.obj
+ 0002:00003734       ??_C@_06JPM@PUBLIC?$AA@    0041b734     ExportAQDictDlg.obj
+ 0002:0000373c       ??_C@_02DILL@?$CFs?$AA@    0041b73c     ExportAQDictDlg.obj
+ 0002:00003740       ??_C@_0P@DGPC@STAGE_?D?$KM?H?O?$LH?$LN?$LA?$LI?$AA@ 0041b740     ExportAQDictDlg.obj
+ 0002:00003754       ??_C@_0M@HHGN@BRANCH_?$CF04d?$AA@ 0041b754     ExportAQDictDlg.obj
+ 0002:00003764       ??_C@_00A@?$AA@            0041b764     ExportAQDictDlg.obj
+ 0002:00003768       ??_C@_0M@LFIK@REAL_BRANCH?$AA@ 0041b768     ExportAQDictDlg.obj
+ 0002:00003778       ??_C@_0L@CDPG@BRANCH_NUM?$AA@ 0041b778     ExportAQDictDlg.obj
+ 0002:00003788       ??_C@_04OOLB@?4ini?$AA@    0041b788     ExportAQDictDlg.obj
+ 0002:00003790       ??_C@_0BE@CFDB@configs?2tdxtc50?4ini?$AA@ 0041b790     ExportAQDictDlg.obj
+ 0002:000037a8       ??_C@_06MEFM@?4?4?2?4?4?2?$AA@ 0041b7a8     ExportAQDictDlg.obj
+ 0002:000037b0       ??_C@_0EA@OPPL@GetProcAddress?5Failed?$CB?5FEM_InitI@ 0041b7b0     ExportAQDictDlg.obj
+ 0002:000037fc       ??_C@_0N@EHIG@FEM_GetDicts?$AA@ 0041b7fc     ExportAQDictDlg.obj
+ 0002:0000380c       ??_C@_0N@PIDI@FEM_ExitInst?$AA@ 0041b80c     ExportAQDictDlg.obj
+ 0002:0000381c       ??_C@_0N@JHNB@FEM_InitInst?$AA@ 0041b81c     ExportAQDictDlg.obj
+ 0002:0000382c       ??_C@_0BE@BNLH@LoadLibrary?5Failed?$CB?$AA@ 0041b82c     ExportAQDictDlg.obj
+ 0002:00003844       ??_C@_01PCFE@?2?$AA@       0041b844     ExportAQDictDlg.obj
+ 0002:00003848       ??_C@_04KFHH@?4txt?$AA@    0041b848     ExportAQDictDlg.obj
+ 0002:00003850       ??_C@_0P@IMAA@?$CI?$CK?4dll?$CJ?$HM?$CK?4dll?$HM?$AA@ 0041b850     ExportAQDictDlg.obj
+ 0002:00009268       _IID_IDocHostUIHandlerDispatch 00421268     mfcs42d:stdafx.obj
+ 0002:00009278       _IID_IInternalConnection   00421278     mfcs42d:stdafx.obj
+ 0002:00009288       _IID_IAxWinAmbientDispatch 00421288     mfcs42d:stdafx.obj
+ 0002:00009298       _IID_IAxWinHostWindow      00421298     mfcs42d:stdafx.obj
+ 0002:000092a8       _IID_IRegistrar            004212a8     mfcs42d:stdafx.obj
+ 0002:000092b8       _CLSID_Registrar           004212b8     mfcs42d:stdafx.obj
+ 0002:000092c8       _LIBID_ATLLib              004212c8     mfcs42d:stdafx.obj
+ 0003:00000000       ___xc_a                    00422000     msvcrtd:cinitexe.obj
+ 0003:0000030c       ___xc_z                    0042230c     msvcrtd:cinitexe.obj
+ 0003:00000410       ___xi_a                    00422410     msvcrtd:cinitexe.obj
+ 0003:00000514       ___xi_z                    00422514     msvcrtd:cinitexe.obj
+ 0003:00006138       ?GUID_ATLVer30@ATL@@3U_GUID@@A 00428138     mfcs42d:stdafx.obj
+ 0003:00006150       ___defaultmatherr          00428150     msvcrtd:merr.obj
+ 0003:00006270       ?theApp@@3VCExportAQDictApp@@A 00428270     ExportAQDict.obj
+ 0003:00006360       __afxForceEXCLUDE          00428360     mfcs42d:nolib.obj
+ 0003:00006364       ?ATL_CREATE_OBJECT@CComApartment@ATL@@2IA 00428364     mfcs42d:stdafx.obj
+ 0003:00006368       ?m_libid@CComModule@ATL@@2U_GUID@@A 00428368     mfcs42d:stdafx.obj
+ 0003:00006378       ?_pModule@ATL@@3PAVCComModule@1@A 00428378     mfcs42d:stdafx.obj
+ 0003:0000637c       __afxForceSTDAFX           0042837c     mfcs42d:stdafx.obj
+ 0003:00006380       __dowildcard               00428380     msvcrtd:wildcard.obj
+ 0003:00006384       __newmode                  00428384     msvcrtd:_newmode.obj
+ 0003:00006388       __commode                  00428388     msvcrtd:xncommod.obj
+ 0003:0000638c       __fmode                    0042838c     msvcrtd:xtxtmode.obj
+ 0003:00006390       ?_afxInitAppState@@3DA     00428390     mfcs42d:appmodul.obj
+ 0003:00006394       __adjust_fdiv              00428394     <common>
+ 0003:000063a0       ___onexitend               004283a0     <common>
+ 0003:000063b0       ___onexitbegin             004283b0     <common>
+ 0004:00000000       __IMPORT_DESCRIPTOR_MFC42D 00429000     mfc42d:MFC42D.DLL
+ 0004:00000014       __IMPORT_DESCRIPTOR_MSVCRTD 00429014     msvcrtd:MSVCRTD.dll
+ 0004:00000028       __IMPORT_DESCRIPTOR_KERNEL32 00429028     kernel32:KERNEL32.dll
+ 0004:0000003c       __IMPORT_DESCRIPTOR_USER32 0042903c     user32:USER32.dll
+ 0004:00000050       __IMPORT_DESCRIPTOR_MFCO42D 00429050     mfco42d:MFCO42D.DLL
+ 0004:00000064       __IMPORT_DESCRIPTOR_WTCommLibD 00429064     WTCommLibd:WTCommLibD.dll
+ 0004:00000078       __NULL_IMPORT_DESCRIPTOR   00429078     mfc42d:MFC42D.DLL
+ 0004:000004fc       __imp__LoadLibraryA@4      004294fc     kernel32:KERNEL32.dll
+ 0004:00000500       __imp__GetProcAddress@8    00429500     kernel32:KERNEL32.dll
+ 0004:00000504       __imp__SetEnvironmentVariableA@8 00429504     kernel32:KERNEL32.dll
+ 0004:00000508       __imp__GetEnvironmentVariableA@12 00429508     kernel32:KERNEL32.dll
+ 0004:0000050c       __imp__LocalFree@4         0042950c     kernel32:KERNEL32.dll
+ 0004:00000510       __imp__FormatMessageA@28   00429510     kernel32:KERNEL32.dll
+ 0004:00000514       __imp__GetLastError@0      00429514     kernel32:KERNEL32.dll
+ 0004:00000518       __imp__GetModuleFileNameA@12 00429518     kernel32:KERNEL32.dll
+ 0004:0000051c       __imp__GetPrivateProfileStringA@24 0042951c     kernel32:KERNEL32.dll
+ 0004:00000520       __imp__GetPrivateProfileIntA@16 00429520     kernel32:KERNEL32.dll
+ 0004:00000524       __imp__GetModuleHandleA@4  00429524     kernel32:KERNEL32.dll
+ 0004:00000528       __imp__GetStartupInfoA@4   00429528     kernel32:KERNEL32.dll
+ 0004:0000052c       __imp__FreeLibrary@4       0042952c     kernel32:KERNEL32.dll
+ 0004:00000530       \177KERNEL32_NULL_THUNK_DATA 00429530     kernel32:KERNEL32.dll
+ 0004:00000564       __imp_?ProcessWndProcException@CWinApp@@UAEJPAVCException@@PBUtagMSG@@@Z 00429564     mfc42d:MFC42D.DLL
+ 0004:00000568       __imp_?ExitInstance@CWinApp@@UAEHXZ 00429568     mfc42d:MFC42D.DLL
+ 0004:0000056c       __imp_?IsIdleMessage@CWinThread@@UAEHPAUtagMSG@@@Z 0042956c     mfc42d:MFC42D.DLL
+ 0004:00000570       __imp_?OnIdle@CWinApp@@UAEHJ@Z 00429570     mfc42d:MFC42D.DLL
+ 0004:00000574       __imp_?PumpMessage@CWinThread@@UAEHXZ 00429574     mfc42d:MFC42D.DLL
+ 0004:00000578       __imp_?PreTranslateMessage@CWinThread@@UAEHPAUtagMSG@@@Z 00429578     mfc42d:MFC42D.DLL
+ 0004:0000057c       __imp_?Run@CWinApp@@UAEHXZ 0042957c     mfc42d:MFC42D.DLL
+ 0004:00000580       __imp_?GetConnectionHook@CCmdTarget@@MAEPAUIConnectionPoint@@ABU_GUID@@@Z 00429580     mfc42d:MFC42D.DLL
+ 0004:00000584       __imp_?GetExtraConnectionPoints@CCmdTarget@@MAEHPAVCPtrArray@@@Z 00429584     mfc42d:MFC42D.DLL
+ 0004:00000588       __imp_?GetInterfaceHook@CCmdTarget@@UAEPAUIUnknown@@PBX@Z 00429588     mfc42d:MFC42D.DLL
+ 0004:0000058c       __imp_?OnCreateAggregates@CCmdTarget@@UAEHXZ 0042958c     mfc42d:MFC42D.DLL
+ 0004:00000590       __imp_?GetEventSinkMap@CCmdTarget@@MBEPBUAFX_EVENTSINKMAP@@XZ 00429590     mfc42d:MFC42D.DLL
+ 0004:00000594       __imp_?GetInterfaceMap@CCmdTarget@@MBEPBUAFX_INTERFACEMAP@@XZ 00429594     mfc42d:MFC42D.DLL
+ 0004:00000598       __imp_?GetConnectionMap@CCmdTarget@@MBEPBUAFX_CONNECTIONMAP@@XZ 00429598     mfc42d:MFC42D.DLL
+ 0004:0000059c       __imp_?GetDispatchMap@CCmdTarget@@MBEPBUAFX_DISPMAP@@XZ 0042959c     mfc42d:MFC42D.DLL
+ 0004:000005a0       __imp_?GetCommandMap@CCmdTarget@@MBEPBUAFX_OLECMDMAP@@XZ 004295a0     mfc42d:MFC42D.DLL
+ 0004:000005a4       __imp_?GetTypeLib@CCmdTarget@@UAEJKPAPAUITypeLib@@@Z 004295a4     mfc42d:MFC42D.DLL
+ 0004:000005a8       __imp_?GetTypeLibCache@CCmdTarget@@UAEPAVCTypeLibCache@@XZ 004295a8     mfc42d:MFC42D.DLL
+ 0004:000005ac       __imp_?GetTypeInfoCount@CCmdTarget@@UAEIXZ 004295ac     mfc42d:MFC42D.DLL
+ 0004:000005b0       __imp_?GetDispatchIID@CCmdTarget@@UAEHPAU_GUID@@@Z 004295b0     mfc42d:MFC42D.DLL
+ 0004:000005b4       __imp_?IsInvokeAllowed@CCmdTarget@@UAEHJ@Z 004295b4     mfc42d:MFC42D.DLL
+ 0004:000005b8       __imp_?OnFinalRelease@CCmdTarget@@UAEXXZ 004295b8     mfc42d:MFC42D.DLL
+ 0004:000005bc       __imp_?OnCmdMsg@CCmdTarget@@UAEHIHPAXPAUAFX_CMDHANDLERINFO@@@Z 004295bc     mfc42d:MFC42D.DLL
+ 0004:000005c0       __imp_?Dump@CWinApp@@UBEXAAVCDumpContext@@@Z 004295c0     mfc42d:MFC42D.DLL
+ 0004:000005c4       __imp_?AssertValid@CWinApp@@UBEXXZ 004295c4     mfc42d:MFC42D.DLL
+ 0004:000005c8       __imp_?Serialize@CObject@@UAEXAAVCArchive@@@Z 004295c8     mfc42d:MFC42D.DLL
+ 0004:000005cc       __imp_?GetRuntimeClass@CWinApp@@UBEPAUCRuntimeClass@@XZ 004295cc     mfc42d:MFC42D.DLL
+ 0004:000005d0       __imp_??0CWinApp@@QAE@PBD@Z 004295d0     mfc42d:MFC42D.DLL
+ 0004:000005d4       __imp_??3CObject@@SGXPAX@Z 004295d4     mfc42d:MFC42D.DLL
+ 0004:000005d8       __imp_??1CWinApp@@UAE@XZ   004295d8     mfc42d:MFC42D.DLL
+ 0004:000005dc       __imp_?DoModal@CDialog@@UAEHXZ 004295dc     mfc42d:MFC42D.DLL
+ 0004:000005e0       __imp_?Enable3dControls@CWinApp@@IAEHXZ 004295e0     mfc42d:MFC42D.DLL
+ 0004:000005e4       __imp_??1CDialog@@UAE@XZ   004295e4     mfc42d:MFC42D.DLL
+ 0004:000005e8       __imp_??1CString@@QAE@XZ   004295e8     mfc42d:MFC42D.DLL
+ 0004:000005ec       __imp_?PreInitDialog@CDialog@@MAEXXZ 004295ec     mfc42d:MFC42D.DLL
+ 0004:000005f0       __imp_?OnCancel@CDialog@@MAEXXZ 004295f0     mfc42d:MFC42D.DLL
+ 0004:000005f4       __imp_?OnOK@CDialog@@MAEXXZ 004295f4     mfc42d:MFC42D.DLL
+ 0004:000005f8       __imp_?OnSetFont@CDialog@@UAEXPAVCFont@@@Z 004295f8     mfc42d:MFC42D.DLL
+ 0004:000005fc       __imp_?OnInitDialog@CDialog@@UAEHXZ 004295fc     mfc42d:MFC42D.DLL
+ 0004:00000600       __imp_?SetOccDialogInfo@CDialog@@MAEHPAU_AFX_OCC_DIALOG_INFO@@@Z 00429600     mfc42d:MFC42D.DLL
+ 0004:00000604       __imp_?IsFrameWnd@CWnd@@UBEHXZ 00429604     mfc42d:MFC42D.DLL
+ 0004:00000608       __imp_?CheckAutoCenter@CDialog@@UAEHXZ 00429608     mfc42d:MFC42D.DLL
+ 0004:0000060c       __imp_?OnChildNotify@CWnd@@MAEHIIJPAJ@Z 0042960c     mfc42d:MFC42D.DLL
+ 0004:00000610       __imp_?PostNcDestroy@CWnd@@MAEXXZ 00429610     mfc42d:MFC42D.DLL
+ 0004:00000614       __imp_?DefWindowProcA@CWnd@@MAEJIIJ@Z 00429614     mfc42d:MFC42D.DLL
+ 0004:00000618       __imp_?OnWndMsg@CWnd@@MAEHIIJPAJ@Z 00429618     mfc42d:MFC42D.DLL
+ 0004:0000061c       __imp_?WindowProc@CWnd@@MAEJIIJ@Z 0042961c     mfc42d:MFC42D.DLL
+ 0004:00000620       __imp_?OnAmbientProperty@CWnd@@UAEHPAVCOleControlSite@@JPAUtagVARIANT@@@Z 00429620     mfc42d:MFC42D.DLL
+ 0004:00000624       __imp_?PreTranslateMessage@CDialog@@UAEHPAUtagMSG@@@Z 00429624     mfc42d:MFC42D.DLL
+ 0004:00000628       __imp_?EndModalState@CWnd@@UAEXXZ 00429628     mfc42d:MFC42D.DLL
+ 0004:0000062c       __imp_?BeginModalState@CWnd@@UAEXXZ 0042962c     mfc42d:MFC42D.DLL
+ 0004:00000630       __imp_?GetSuperWndProcAddr@CWnd@@MAEPAP6GJPAUHWND__@@IIJ@ZXZ 00429630     mfc42d:MFC42D.DLL
+ 0004:00000634       __imp_?OnNotify@CWnd@@MAEHIJPAJ@Z 00429634     mfc42d:MFC42D.DLL
+ 0004:00000638       __imp_?OnCommand@CWnd@@MAEHIJ@Z 00429638     mfc42d:MFC42D.DLL
+ 0004:0000063c       __imp_?EndModalLoop@CWnd@@UAEXH@Z 0042963c     mfc42d:MFC42D.DLL
+ 0004:00000640       __imp_?ContinueModal@CWnd@@UAEHXZ 00429640     mfc42d:MFC42D.DLL
+ 0004:00000644       __imp_?WinHelpA@CWnd@@UAEXKI@Z 00429644     mfc42d:MFC42D.DLL
+ 0004:00000648       __imp_?GetScrollBarCtrl@CWnd@@UBEPAVCScrollBar@@H@Z 00429648     mfc42d:MFC42D.DLL
+ 0004:0000064c       __imp_?ProcessMessageFilter@CWinThread@@UAEHHPAUtagMSG@@@Z 0042964c     mfc42d:MFC42D.DLL
+ 0004:00000650       __imp_?CalcWindowRect@CWnd@@UAEXPAUtagRECT@@I@Z 00429650     mfc42d:MFC42D.DLL
+ 0004:00000654       __imp_?PreCreateWindow@CWnd@@UAEHAAUtagCREATESTRUCTA@@@Z 00429654     mfc42d:MFC42D.DLL
+ 0004:00000658       __imp_?DestroyWindow@CWnd@@UAEHXZ 00429658     mfc42d:MFC42D.DLL
+ 0004:0000065c       __imp_?Create@CWnd@@UAEHPBD0KABUtagRECT@@PAV1@IPAUCCreateContext@@@Z 0042965c     mfc42d:MFC42D.DLL
+ 0004:00000660       __imp_?PreSubclassWindow@CWnd@@UAEXXZ 00429660     mfc42d:MFC42D.DLL
+ 0004:00000664       __imp_?OnFinalRelease@CWnd@@UAEXXZ 00429664     mfc42d:MFC42D.DLL
+ 0004:00000668       __imp_?OnCmdMsg@CDialog@@UAEHIHPAXPAUAFX_CMDHANDLERINFO@@@Z 00429668     mfc42d:MFC42D.DLL
+ 0004:0000066c       __imp_?Dump@CDialog@@UBEXAAVCDumpContext@@@Z 0042966c     mfc42d:MFC42D.DLL
+ 0004:00000670       __imp_?AssertValid@CDialog@@UBEXXZ 00429670     mfc42d:MFC42D.DLL
+ 0004:00000674       __imp_?GetRuntimeClass@CDialog@@UBEPAUCRuntimeClass@@XZ 00429674     mfc42d:MFC42D.DLL
+ 0004:00000678       __imp_??0CDialog@@QAE@IPAVCWnd@@@Z 00429678     mfc42d:MFC42D.DLL
+ 0004:0000067c       __imp_?DoDataExchange@CWnd@@MAEXPAVCDataExchange@@@Z 0042967c     mfc42d:MFC42D.DLL
+ 0004:00000680       __imp_?messageMap@CDialog@@1UAFX_MSGMAP@@B 00429680     mfc42d:MFC42D.DLL
+ 0004:00000684       __imp_?LoadIconA@CWinApp@@QBEPAUHICON__@@I@Z 00429684     mfc42d:MFC42D.DLL
+ 0004:00000688       __imp_?AfxGetApp@@YGPAVCWinApp@@XZ 00429688     mfc42d:MFC42D.DLL
+ 0004:0000068c       __imp_??0CString@@QAE@XZ   0042968c     mfc42d:MFC42D.DLL
+ 0004:00000690       __imp_??4CString@@QAEABV0@ABV0@@Z 00429690     mfc42d:MFC42D.DLL
+ 0004:00000694       __imp_?Left@CString@@QBE?AV1@H@Z 00429694     mfc42d:MFC42D.DLL
+ 0004:00000698       __imp_?ReverseFind@CString@@QBEHD@Z 00429698     mfc42d:MFC42D.DLL
+ 0004:0000069c       __imp_??4CString@@QAEABV0@PBD@Z 0042969c     mfc42d:MFC42D.DLL
+ 0004:000006a0       __imp_?SetWindowTextA@CWnd@@QAEXPBD@Z 004296a0     mfc42d:MFC42D.DLL
+ 0004:000006a4       __imp_?GetDlgItem@CWnd@@QBEPAV1@H@Z 004296a4     mfc42d:MFC42D.DLL
+ 0004:000006a8       __imp_?SetIcon@CWnd@@QAEPAUHICON__@@PAU2@H@Z 004296a8     mfc42d:MFC42D.DLL
+ 0004:000006ac       __imp_??BCString@@QBEPBDXZ 004296ac     mfc42d:MFC42D.DLL
+ 0004:000006b0       __imp_?AppendMenuA@CMenu@@QAEHIIPBD@Z 004296b0     mfc42d:MFC42D.DLL
+ 0004:000006b4       __imp_?IsEmpty@CString@@QBEHXZ 004296b4     mfc42d:MFC42D.DLL
+ 0004:000006b8       __imp_?LoadStringA@CString@@QAEHI@Z 004296b8     mfc42d:MFC42D.DLL
+ 0004:000006bc       __imp_?GetSystemMenu@CWnd@@QBEPAVCMenu@@H@Z 004296bc     mfc42d:MFC42D.DLL
+ 0004:000006c0       __imp_?OnSysCommand@CWnd@@IAEXIJ@Z 004296c0     mfc42d:MFC42D.DLL
+ 0004:000006c4       __imp_?OnPaint@CWnd@@IAEXXZ 004296c4     mfc42d:MFC42D.DLL
+ 0004:000006c8       __imp_??1CPaintDC@@UAE@XZ  004296c8     mfc42d:MFC42D.DLL
+ 0004:000006cc       __imp_?DrawIcon@CDC@@QAEHHHPAUHICON__@@@Z 004296cc     mfc42d:MFC42D.DLL
+ 0004:000006d0       __imp_?Height@CRect@@QBEHXZ 004296d0     mfc42d:MFC42D.DLL
+ 0004:000006d4       __imp_?Width@CRect@@QBEHXZ 004296d4     mfc42d:MFC42D.DLL
+ 0004:000006d8       __imp_?GetClientRect@CWnd@@QBEXPAUtagRECT@@@Z 004296d8     mfc42d:MFC42D.DLL
+ 0004:000006dc       __imp_??0CRect@@QAE@XZ     004296dc     mfc42d:MFC42D.DLL
+ 0004:000006e0       __imp_?SendMessageA@CWnd@@QAEJIIJ@Z 004296e0     mfc42d:MFC42D.DLL
+ 0004:000006e4       __imp_?GetSafeHdc@CDC@@QBEPAUHDC__@@XZ 004296e4     mfc42d:MFC42D.DLL
+ 0004:000006e8       __imp_??0CPaintDC@@QAE@PAVCWnd@@@Z 004296e8     mfc42d:MFC42D.DLL
+ 0004:000006ec       __imp_?IsIconic@CWnd@@QBEHXZ 004296ec     mfc42d:MFC42D.DLL
+ 0004:000006f0       __imp_?GetCheck@CButton@@QBEHXZ 004296f0     mfc42d:MFC42D.DLL
+ 0004:000006f4       __imp_??H@YG?AVCString@@PBDABV0@@Z 004296f4     mfc42d:MFC42D.DLL
+ 0004:000006f8       __imp_??H@YG?AVCString@@ABV0@0@Z 004296f8     mfc42d:MFC42D.DLL
+ 0004:000006fc       __imp_??H@YG?AVCString@@ABV0@PBD@Z 004296fc     mfc42d:MFC42D.DLL
+ 0004:00000700       __imp_?MessageBoxA@CWnd@@QAEHPBD0I@Z 00429700     mfc42d:MFC42D.DLL
+ 0004:00000704       __imp_??0CString@@QAE@PBD@Z 00429704     mfc42d:MFC42D.DLL
+ 0004:00000708       __imp_?GetLength@CString@@QBEHXZ 00429708     mfc42d:MFC42D.DLL
+ 0004:0000070c       __imp_?GetWindowTextA@CWnd@@QBEXAAVCString@@@Z 0042970c     mfc42d:MFC42D.DLL
+ 0004:00000710       __imp_?Right@CString@@QBE?AV1@H@Z 00429710     mfc42d:MFC42D.DLL
+ 0004:00000714       __imp_?Find@CString@@QBEHDH@Z 00429714     mfc42d:MFC42D.DLL
+ 0004:00000718       __imp_?GetPathName@CFileDialog@@QBE?AVCString@@XZ 00429718     mfc42d:MFC42D.DLL
+ 0004:0000071c       __imp_?DoModal@CFileDialog@@UAEHXZ 0042971c     mfc42d:MFC42D.DLL
+ 0004:00000720       __imp_??0CFileDialog@@QAE@HPBD0K0PAVCWnd@@@Z 00429720     mfc42d:MFC42D.DLL
+ 0004:00000724       __imp_?EnableWindow@CWnd@@QAEHH@Z 00429724     mfc42d:MFC42D.DLL
+ 0004:00000728       __imp_?SetCheck@CButton@@QAEXH@Z 00429728     mfc42d:MFC42D.DLL
+ 0004:0000072c       __imp_?AfxAssertFailedLine@@YGHPBDH@Z 0042972c     mfc42d:MFC42D.DLL
+ 0004:00000730       __imp_?AfxWinMain@@YGHPAUHINSTANCE__@@0PADH@Z 00429730     mfc42d:MFC42D.DLL
+ 0004:00000734       __imp_?GetMainWnd@CWinThread@@UAEPAVCWnd@@XZ 00429734     mfc42d:MFC42D.DLL
+ 0004:00000738       __imp_?Delete@CWinThread@@UAEXXZ 00429738     mfc42d:MFC42D.DLL
+ 0004:0000073c       __imp_?OpenDocumentFile@CWinApp@@UAEPAVCDocument@@PBD@Z 0042973c     mfc42d:MFC42D.DLL
+ 0004:00000740       __imp_?AddToRecentFileList@CWinApp@@UAEXPBD@Z 00429740     mfc42d:MFC42D.DLL
+ 0004:00000744       __imp_?InitApplication@CWinApp@@UAEHXZ 00429744     mfc42d:MFC42D.DLL
+ 0004:00000748       __imp_?SaveAllModified@CWinApp@@UAEHXZ 00429748     mfc42d:MFC42D.DLL
+ 0004:0000074c       __imp_?DoMessageBox@CWinApp@@UAEHPBDII@Z 0042974c     mfc42d:MFC42D.DLL
+ 0004:00000750       __imp_?DoWaitCursor@CWinApp@@UAEXH@Z 00429750     mfc42d:MFC42D.DLL
+ 0004:00000754       __imp_?OnDDECommand@CWinApp@@UAEHPAD@Z 00429754     mfc42d:MFC42D.DLL
+ 0004:00000758       __imp_?WinHelpA@CWinApp@@UAEXKI@Z 00429758     mfc42d:MFC42D.DLL
+ 0004:0000075c       __imp_?messageMap@CWinApp@@1UAFX_MSGMAP@@B 0042975c     mfc42d:MFC42D.DLL
+ 0004:00000760       __imp_?OnHelp@CWinApp@@IAEXXZ 00429760     mfc42d:MFC42D.DLL
+ 0004:00000764       __imp_?OnToolHitTest@CWnd@@UBEHVCPoint@@PAUtagTOOLINFOA@@@Z 00429764     mfc42d:MFC42D.DLL
+ 0004:00000768       __imp_?AfxTrace@@YAXPBDZZ  00429768     mfc42d:MFC42D.DLL
+ 0004:0000076c       __imp_?AfxGetModuleState@@YGPAVAFX_MODULE_STATE@@XZ 0042976c     mfc42d:MFC42D.DLL
+ 0004:00000770       \177MFC42D_NULL_THUNK_DATA 00429770     mfc42d:MFC42D.DLL
+ 0004:00000804       __imp_?AfxEnableControlContainer@@YAXPAVCOccManager@@@Z 00429804     mfco42d:MFCO42D.DLL
+ 0004:00000808       \177MFCO42D_NULL_THUNK_DATA 00429808     mfco42d:MFCO42D.DLL
+ 0004:00000834       __imp__exit                00429834     msvcrtd:MSVCRTD.dll
+ 0004:00000838       __imp___acmdln             00429838     msvcrtd:MSVCRTD.dll
+ 0004:0000083c       __imp____getmainargs       0042983c     msvcrtd:MSVCRTD.dll
+ 0004:00000840       __imp___initterm           00429840     msvcrtd:MSVCRTD.dll
+ 0004:00000844       __imp____setusermatherr    00429844     msvcrtd:MSVCRTD.dll
+ 0004:00000848       __imp___adjust_fdiv        00429848     msvcrtd:MSVCRTD.dll
+ 0004:0000084c       __imp____p__commode        0042984c     msvcrtd:MSVCRTD.dll
+ 0004:00000850       __imp____p__fmode          00429850     msvcrtd:MSVCRTD.dll
+ 0004:00000854       __imp____set_app_type      00429854     msvcrtd:MSVCRTD.dll
+ 0004:00000858       __imp___except_handler3    00429858     msvcrtd:MSVCRTD.dll
+ 0004:0000085c       __imp___controlfp          0042985c     msvcrtd:MSVCRTD.dll
+ 0004:00000860       __imp____dllonexit         00429860     msvcrtd:MSVCRTD.dll
+ 0004:00000864       __imp___XcptFilter         00429864     msvcrtd:MSVCRTD.dll
+ 0004:00000868       __imp__atol                00429868     msvcrtd:MSVCRTD.dll
+ 0004:0000086c       __imp__fopen               0042986c     msvcrtd:MSVCRTD.dll
+ 0004:00000870       __imp__fclose              00429870     msvcrtd:MSVCRTD.dll
+ 0004:00000874       __imp__fwrite              00429874     msvcrtd:MSVCRTD.dll
+ 0004:00000878       __imp____CxxFrameHandler   00429878     msvcrtd:MSVCRTD.dll
+ 0004:0000087c       __imp__malloc              0042987c     msvcrtd:MSVCRTD.dll
+ 0004:00000880       __imp__free                00429880     msvcrtd:MSVCRTD.dll
+ 0004:00000884       __imp__memmove             00429884     msvcrtd:MSVCRTD.dll
+ 0004:00000888       __imp__strstr              00429888     msvcrtd:MSVCRTD.dll
+ 0004:0000088c       __imp__strcat              0042988c     msvcrtd:MSVCRTD.dll
+ 0004:00000890       __imp__strcpy              00429890     msvcrtd:MSVCRTD.dll
+ 0004:00000894       __imp__strlen              00429894     msvcrtd:MSVCRTD.dll
+ 0004:00000898       __imp__memset              00429898     msvcrtd:MSVCRTD.dll
+ 0004:0000089c       __imp___chkesp             0042989c     msvcrtd:MSVCRTD.dll
+ 0004:000008a0       __imp___exit               004298a0     msvcrtd:MSVCRTD.dll
+ 0004:000008a4       __imp___snprintf           004298a4     msvcrtd:MSVCRTD.dll
+ 0004:000008a8       __imp___setmbcp            004298a8     msvcrtd:MSVCRTD.dll
+ 0004:000008ac       __imp___onexit             004298ac     msvcrtd:MSVCRTD.dll
+ 0004:000008b0       \177MSVCRTD_NULL_THUNK_DATA 004298b0     msvcrtd:MSVCRTD.dll
+ 0004:000008f4       __imp__GetSystemMetrics@4  004298f4     user32:USER32.dll
+ 0004:000008f8       \177USER32_NULL_THUNK_DATA 004298f8     user32:USER32.dll
+ 0004:00000924       __imp_?RegisterStructField@CWtDict@@QAEHGQBGG@Z 00429924     WTCommLibd:WTCommLibD.dll
+ 0004:00000928       __imp_??1CWtDict2@@UAE@XZ  00429928     WTCommLibd:WTCommLibD.dll
+ 0004:0000092c       __imp_??0CWtDict2@@QAE@GG@Z 0042992c     WTCommLibd:WTCommLibD.dll
+ 0004:00000930       __imp_?RegisterFieldInfo@CWtDict@@QAEHQBUtagFIELDINFO@@G@Z 00429930     WTCommLibd:WTCommLibD.dll
+ 0004:00000934       __imp_?RegisterStruct@CWtDict@@QAEHQBGG@Z 00429934     WTCommLibd:WTCommLibD.dll
+ 0004:00000938       __imp_?ExportCommonAndGetUsed@CWtDict2@@QAEHQAXKAAK@Z 00429938     WTCommLibd:WTCommLibD.dll
+ 0004:0000093c       \177WTCommLibD_NULL_THUNK_DATA 0042993c     WTCommLibd:WTCommLibD.dll
+
+ entry point at        0001:00003b80
+
