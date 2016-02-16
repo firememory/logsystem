@@ -1,6 +1,0 @@
-
-EXPORTS
-  Connection_CreateInstance
-
-  db_thd_init
-  db_thd_deinit

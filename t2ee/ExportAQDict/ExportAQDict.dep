@@ -1,6 +1,0 @@
-# Microsoft Developer Studio Generated Dependency File, included by ExportAQDict.mak
-
-.\ExportAQDict.rc : \
-	".\res\ExportAQDict.ico"\
-	".\res\ExportAQDict.rc2"\
-	

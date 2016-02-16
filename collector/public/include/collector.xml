@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Collector name="192.168.2.80_7427EA1D206C" >
-  <TimeControl AfterToday="Y" SleepTime="1000" />
-</Collector>

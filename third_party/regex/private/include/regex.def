@@ -1,6 +1,0 @@
-
-EXPORTS
-
-  regcomp
-  regexec
-  regfree
