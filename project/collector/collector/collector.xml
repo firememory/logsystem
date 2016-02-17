@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Collector name="192.168.6.11_94DE80E822FB" >
+  <System ConnectWaitTime="180" />
+  <TimeControl AfterToday="Y" SleepTime="300" StrictMode="Y" />
+  <MemMiniLog IncludeLog="(0-94),(0-96),(0-98),(0-100)" />
+</Collector>
