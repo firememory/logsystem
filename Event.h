@@ -28,6 +28,8 @@ template<typename TOBJECT>
 class MemHandler:public IHandler
 {
 public:
+	typedef void (TOBJECT::*Handler)(WPARAM,LPARAM);
+public:
 	MemHandler(){}
 	virtual ~MemHandler(){}
 public:
